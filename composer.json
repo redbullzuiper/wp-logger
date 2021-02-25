@@ -1,0 +1,16 @@
+{
+    "name": "suilichem/wp-debugger",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Richard Mauritz",
+            "email": "richard@suilichem.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "logger\\": "logger/"
+        }
+    }
+}
